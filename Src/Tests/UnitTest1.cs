@@ -10,5 +10,15 @@ namespace Tests
         {
 
         }
+
+        [Fact]
+        public void TestAdd() {
+            Assert.Equal(2, add(1,1));
+        }
+
+        //Test feature
+        public int add(int a, int b) {
+            return a+b;
+        }
     }
 }

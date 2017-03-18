@@ -20,5 +20,5 @@ before_script:
   - dotnet restore DevRocks.DemoTravis.sln
 
 script:
-  - dotnet build project.slnDevRocks.DemoTravis.sln
+  - dotnet build DevRocks.DemoTravis.sln
   - dotnet test Src/Test/Test.csproj

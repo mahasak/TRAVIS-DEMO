@@ -21,4 +21,4 @@ before_script:
 
 script:
   - dotnet build DevRocks.DemoTravis.sln
-  - dotnet test Src/Test/Test.csproj
+  - dotnet test Src/Tests/Tests.csproj
